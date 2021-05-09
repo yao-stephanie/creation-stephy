@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    font-family: 'Lato','Sans serif';
+    font-size: 20px;
+    font-weight: 300;
+    color: #555;
+    text-rendering: optimizeLegibility;
+}
+
+
+header{
+    background-image:linear-gradient( rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(../img/madden.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 30px;
+    position: relative;
+}
+
+
+section{
+    margin: 60px 0;
+}
+
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 55px;
+}
+
+
+.main-nav{
+    float: right;
+    margin-top: 55px;
+    
+}
+
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+
+
+.main-nav li a{
+    font-size: 90%;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    color:#686de0;
+}
+
+
+.text-box{
+    width: 800px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+
+h1{
+    font-size: 180%;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+
+.text-box p{
+    margin-bottom: 20px;
+}
+
+
+.btn:link,
+.btn:visited{
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: #40407a;
+    margin-top: 20px;
+    transition:background-color 0.2s border 0.2s color 0.2s ;
+}
+
+
+
+
+.btn:hover,
+.btn:active{
+    background-color: #f7f1e3;
+    border: 1px solid #f7f1e3;
+    color: #000;
+}
+
+
+h2{
+    font-size: 110%;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.col-block{
+    padding-bottom: 20px;
+    
+}
+
+
+.col-block:hover{
+    background-color: #F8EFBA;
+    box-shadow: 4px 2px 15px rgb(0, 0, 0.7);
+}
+
+
+
+h3{
+    font-size: 90%;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+
+.illustre-img{
+    width: 100%;
+}
+
+.illustre-img:hover,
+.illustre-img:active{
+    background-color: #F8EFBA;
+}
+
+
+
+
+
+.icon span{
+    font-size: 70%;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+
+.icon-small{
+    font-size: 130%;
+    color: #ffd32a;
+}
+
+
+.copy{
+    font-size: 110%;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+.graphe{
+    margin-bottom: 20px;
+}
+
+
+
+.btn-full:hover,
+.btn-full:active{
+    background-color: #fd9644;
+    border: 1px solid #fd9644;
+    color: #fff;
+}
+
+
+.contact{
+    padding: 40px 0;
+}
+
+
+.row-social{
+    padding-top: 15px;
+    width: 800px;
+}
+
+
+
+.icon-social{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+
+.footer-box{
+    background-color: #4934d467;
+    max-height: 100vh;
+}
+
+
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.block-info{
+    width: 150px;
+    margin-top: 55px;
+}
+
+
+.footer-img{
+    height: 200px;
+    margin-top: 55px;
+
+   
+}
+
+
+hr{
+    border: 1px solid rgba(128, 128, 128, 0.37);
+   margin: 20px 0 5px 0;
+}
+
+
+.signature{
+    font-style: 40%;
+    font-weight: 400;
+}
